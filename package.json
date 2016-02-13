@@ -1,0 +1,27 @@
+{
+  "name": "node-cgen",
+  "description": "Node C++ Binding Generator",
+  "author": "Dror Gluska <drorgl@yahoo.com>",
+  "version": "0.0.1",
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "c++",
+    "binding"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "colors": "^1.1.2",
+    "pegjs": "git://github.com/pegjs/pegjs",
+    "pegjs-backtrace": "git://github.com/okaxaki/pegjs-backtrace",
+    "tape": "^3.5.0"
+  }
+}
